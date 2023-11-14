@@ -1,0 +1,59 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: #97e5f6;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+
+nav {
+    background-color: #7c87e4;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 250px;
+}
+
+article {
+    text-align: center;
+    color: black;
+}
+
+.grey-section {
+    background-color: #ccc;
+
+}
+
+
+main {
+    width: 100%;
+    height: 250px;
+    background-color: #65d0d7;
+    text-align: center;
+    color: black;
+}
+
+footer {
+    background-color: #d594d6;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+}
